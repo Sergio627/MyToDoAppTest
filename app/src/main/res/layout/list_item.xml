@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingVertical="@dimen/item_margin"
+    android:paddingHorizontal="@dimen/layout_margin_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/item_icon"
+        android:layout_width="@dimen/item_icon"
+        android:layout_height="@dimen/item_icon"
+        />
+
+    <TextView
+        android:id="@+id/item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/item_title"
+        android:layout_toEndOf="@+id/item_icon"
+        android:layout_toStartOf="@+id/item_status"
+        android:paddingHorizontal="@dimen/item_margin"
+        android:text="test" />
+
+    <TextView
+        android:id="@+id/item_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/item_subtitle"
+        android:layout_toEndOf="@id/item_icon"
+        android:layout_toStartOf="@id/item_status"
+        android:layout_below="@+id/item_title"
+        android:paddingHorizontal="@dimen/item_margin"
+        android:text="subtitle" />
+
+    <ImageView
+        android:id="@+id/item_status"
+        android:layout_width="@dimen/item_status"
+        android:layout_height="@dimen/item_status"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

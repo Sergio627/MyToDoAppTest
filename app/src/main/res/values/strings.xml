@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My ToDo List</string>
+    <string name="action_settings">Settings</string>
+
+
+
+    <!-- login Activity -->
+    <string name="input_nickname">Usuario</string>
+    <string name="input_password">Contraseña</string>
+    <string name="btn_login">Entrar</string>
+</resources>
